@@ -1,0 +1,24 @@
+1.open cmd and type:mvn --version
+
+2.If the command isn't recognized, you need to install Maven: https://maven.apache.org/download.cgi
+
+3.Extract the file, and set your system environment Path variable to point to the extracted maven folder
+
+4. Open eclipse, go to Help > Eclipse MarketPlace
+
+5.Search for "Maven Integration for  Eclipse" and install Maven Integration for  Eclipse (luna) 1.5.0
+
+6. File > Import 
+
+7. Select Maven > Select Existing Maven Projects and click Next
+
+8. Browse and select the submitted project folder  and click Next, might need to wait a few minutes
+
+9. In the project explorer, navigate to src/main/java >  Train.java
+
+10. execute train.java to train and save weights (it will also evaluate training at the end)
+
+11. execute evaluate.java to evaluate network from pre-saved weights.
+
+
+
